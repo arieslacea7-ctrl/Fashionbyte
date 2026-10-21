@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FASHIONBYTE | Streetwear</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #090909;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 22px 8%;
+      border-bottom: 1px solid #333;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: 900;
+      letter-spacing: 3px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: radial-gradient(ellipse, #333, #090909 70%);
+    }
+
+    .sale {
+      display: inline-block;
+      border: 2px solid white;
+      padding: 12px 20px;
+      font-weight: bold;
+      transform: rotate(-3deg);
+    }
+
+    h1 {
+      font-size: clamp(45px, 9vw, 90px);
+      margin: 28px 0 12px;
+    }
+
+    .hero p {
+      color: #bbb;
+      line-height: 1.8;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 25px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section { padding: 55px 8%; }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background: #151515;
+      border: 1px solid #333;
+      padding: 18px;
+      text-align: center;
+    }
+
+    .hoodie {
+      height: 210px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(140deg, #292929, #080808);
+      font-size: 65px;
+    }
+
+    .product p { color: #bbb; }
+    .price { color: white !important; font-size: 20px; font-weight: bold; }
+
+    .about {
+      text-align: center;
+      background: #151515;
+      line-height: 1.8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #888;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">FASHIONBYTE.</div>
+    <nav>
+      <a href="#shop">SHOP</a>
+      <a href="#about">ABOUT</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="sale">🔥 45% SALE!!! 🔥</div>
+    <h1>WEAR THE<br>FUTURE.</h1>
+    <p>Streetwear that speaks for itself.<br>
+    Bold looks. Fresh energy. Your own style.</p>
+    <a class="button" href="#shop">SHOP THE DROP →</a>
+  </main>
+
+  <section id="shop">
+    <h2>THE COLLECTION.</h2>
+    <p style="color:#999">Discover your next favorite fit.</p>
+
+    <div class="products">
+      <div class="product">
+        <div class="hoodie">♟</div>
+        <h3>NOIR HOODIE</h3>
+        <p>Classic black streetwear</p>
+        <p class="price">₱990</p>
+      </div>
+
+      <div class="product">
+        <div class="hoodie">✦</div>
+        <h3>BYTE TEE</h3>
+        <p>Everyday essential</p>
+        <p class="price">₱550</p>
+      </div>
+
+      <div class="product">
+        <div class="hoodie">☠</div>
+        <h3>SHADOW DROP</h3>
+        <p>Stand out from the crowd</p>
+        <p class="price">₱1,100</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>YOUR STYLE. YOUR WORLD.</h2>
+    <p>FASHIONBYTE brings bold streetwear to people<br>
+    who aren't afraid to be different.</p>
+    <strong>GET IN ON THE 45% SALE!</strong>
+  </section>
+
+  <footer>
+    FASHIONBYTE © 2026
+    <p>Student PETA Project · Fashion Brand Concept</p>
+  </footer>
+</body>
+</html>
